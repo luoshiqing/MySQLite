@@ -6,6 +6,18 @@
 //  Copyright © 2017年 sqluo. All rights reserved.
 //
 
+
+
+/*
+ 1.需要在 TARGETS->Build Phases->Link Binary With Libraries 中添加 libsqlite3.tbd
+ 2.创建桥接文件，在桥接文件中导入 #import <sqlite3.h>
+ 3.导入 SQLManager文件夹中的文件
+ 4.需要写一个表的model，SQLManger.swift 中的创建一系列方法中 改成跟model一致
+ 5.可以使用了
+*/
+
+
+
 import UIKit
 
 @UIApplicationMain
@@ -15,7 +27,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        
+        let rootVC = RootViewController()
+        let nav = BaseNavigationController(rootViewController: rootVC)
+        
+        nav.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        nav.navigationBar.barTintColor = UIColor(red: 246/255.0, green: 93/255.0, blue: 34/255.0, alpha: 1)
+        
+        self.window?.rootViewController = nav
+        
+     
+        SQLManager.shareInstance().openDB(DBName: "BLOB.sqlite")
+ 
+
         return true
     }
 

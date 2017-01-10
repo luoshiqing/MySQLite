@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D649A1321E2492740027DB61 /* LimitSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D649A1311E2492740027DB61 /* LimitSelectViewController.swift */; };
 		D679A1BB1E232F89001BA250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1BA1E232F89001BA250 /* AppDelegate.swift */; };
 		D679A1BD1E232F89001BA250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1BC1E232F89001BA250 /* ViewController.swift */; };
 		D679A1C01E232F89001BA250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D679A1BE1E232F89001BA250 /* Main.storyboard */; };
 		D679A1C21E232F89001BA250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D679A1C11E232F89001BA250 /* Assets.xcassets */; };
 		D679A1C51E232F89001BA250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D679A1C31E232F89001BA250 /* LaunchScreen.storyboard */; };
+		D679A1D11E233017001BA250 /* MyFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1D01E233017001BA250 /* MyFunc.swift */; };
+		D679A1D31E23304C001BA250 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1D21E23304C001BA250 /* RootViewController.swift */; };
+		D679A1D61E233065001BA250 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1D41E233065001BA250 /* BaseNavigationController.swift */; };
+		D679A1D71E233065001BA250 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1D51E233065001BA250 /* BaseViewController.swift */; };
+		D679A1DB1E23329C001BA250 /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1DA1E23329C001BA250 /* InsertViewController.swift */; };
+		D679A1E41E2337BC001BA250 /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1E31E2337BC001BA250 /* DeleteViewController.swift */; };
+		D679A1EA1E2338C3001BA250 /* tmBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D679A1E71E2338C3001BA250 /* tmBack@2x.png */; };
+		D679A1EB1E2338C3001BA250 /* tmBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D679A1E81E2338C3001BA250 /* tmBack@3x.png */; };
+		D679A1ED1E233CA6001BA250 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1EC1E233CA6001BA250 /* TextFieldView.swift */; };
+		D679A1F71E23592C001BA250 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D679A1F61E23592C001BA250 /* libsqlite3.tbd */; };
+		D679A1FE1E236445001BA250 /* LookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1FD1E236445001BA250 /* LookViewController.swift */; };
+		D679A2011E236605001BA250 /* LookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A1FF1E236605001BA250 /* LookTableViewCell.swift */; };
+		D679A2021E236605001BA250 /* LookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D679A2001E236605001BA250 /* LookTableViewCell.xib */; };
+		D679A2061E236C9E001BA250 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A2051E236C9E001BA250 /* Person.swift */; };
+		D679A2091E236CAE001BA250 /* Controller+Cagetory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A2071E236CAE001BA250 /* Controller+Cagetory.swift */; };
+		D679A20A1E236CAE001BA250 /* String-DirCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A2081E236CAE001BA250 /* String-DirCategory.swift */; };
+		D679A20C1E236CBA001BA250 /* SQLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A20B1E236CBA001BA250 /* SQLManager.swift */; };
+		D679A20E1E2370FA001BA250 /* UpDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A20D1E2370FA001BA250 /* UpDateViewController.swift */; };
+		D679A2101E237123001BA250 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A20F1E237123001BA250 /* SelectViewController.swift */; };
+		D679A2121E23837A001BA250 /* BatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A2111E23837A001BA250 /* BatchViewController.swift */; };
+		D679A2161E2396F9001BA250 /* UpdateSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679A2151E2396F9001BA250 /* UpdateSaveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D649A1311E2492740027DB61 /* LimitSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitSelectViewController.swift; sourceTree = "<group>"; };
 		D679A1B71E232F89001BA250 /* MySQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D679A1BA1E232F89001BA250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D679A1BC1E232F89001BA250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,28 @@
 		D679A1C11E232F89001BA250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D679A1C41E232F89001BA250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D679A1C61E232F89001BA250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D679A1CC1E232FCD001BA250 /* MySQLite-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySQLite-Bridging-Header.h"; sourceTree = "<group>"; };
+		D679A1D01E233017001BA250 /* MyFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFunc.swift; sourceTree = "<group>"; };
+		D679A1D21E23304C001BA250 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D679A1D41E233065001BA250 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		D679A1D51E233065001BA250 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D679A1DA1E23329C001BA250 /* InsertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
+		D679A1E31E2337BC001BA250 /* DeleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		D679A1E71E2338C3001BA250 /* tmBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tmBack@2x.png"; sourceTree = "<group>"; };
+		D679A1E81E2338C3001BA250 /* tmBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tmBack@3x.png"; sourceTree = "<group>"; };
+		D679A1EC1E233CA6001BA250 /* TextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		D679A1F61E23592C001BA250 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D679A1FD1E236445001BA250 /* LookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookViewController.swift; sourceTree = "<group>"; };
+		D679A1FF1E236605001BA250 /* LookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookTableViewCell.swift; sourceTree = "<group>"; };
+		D679A2001E236605001BA250 /* LookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LookTableViewCell.xib; sourceTree = "<group>"; };
+		D679A2051E236C9E001BA250 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D679A2071E236CAE001BA250 /* Controller+Cagetory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Controller+Cagetory.swift"; sourceTree = "<group>"; };
+		D679A2081E236CAE001BA250 /* String-DirCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-DirCategory.swift"; sourceTree = "<group>"; };
+		D679A20B1E236CBA001BA250 /* SQLManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLManager.swift; sourceTree = "<group>"; };
+		D679A20D1E2370FA001BA250 /* UpDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpDateViewController.swift; sourceTree = "<group>"; };
+		D679A20F1E237123001BA250 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		D679A2111E23837A001BA250 /* BatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchViewController.swift; sourceTree = "<group>"; };
+		D679A2151E2396F9001BA250 /* UpdateSaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateSaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D679A1F71E23592C001BA250 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +86,7 @@
 			children = (
 				D679A1B91E232F89001BA250 /* MySQLite */,
 				D679A1B81E232F89001BA250 /* Products */,
+				D679A1F51E23592C001BA250 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,84 @@
 		D679A1B91E232F89001BA250 /* MySQLite */ = {
 			isa = PBXGroup;
 			children = (
+				D679A1E51E2338B7001BA250 /* imgs */,
+				D679A1D81E233069001BA250 /* BaseCtr */,
 				D679A1BA1E232F89001BA250 /* AppDelegate.swift */,
+				D679A1D01E233017001BA250 /* MyFunc.swift */,
+				D679A1D21E23304C001BA250 /* RootViewController.swift */,
+				D679A1FA1E23601A001BA250 /* Model */,
+				D679A1F01E235799001BA250 /* SQLManager */,
+				D679A1E21E233785001BA250 /* main */,
 				D679A1BC1E232F89001BA250 /* ViewController.swift */,
 				D679A1BE1E232F89001BA250 /* Main.storyboard */,
 				D679A1C11E232F89001BA250 /* Assets.xcassets */,
 				D679A1C31E232F89001BA250 /* LaunchScreen.storyboard */,
 				D679A1C61E232F89001BA250 /* Info.plist */,
+				D679A1CC1E232FCD001BA250 /* MySQLite-Bridging-Header.h */,
 			);
 			path = MySQLite;
+			sourceTree = "<group>";
+		};
+		D679A1D81E233069001BA250 /* BaseCtr */ = {
+			isa = PBXGroup;
+			children = (
+				D679A1D41E233065001BA250 /* BaseNavigationController.swift */,
+				D679A1D51E233065001BA250 /* BaseViewController.swift */,
+			);
+			name = BaseCtr;
+			sourceTree = "<group>";
+		};
+		D679A1E21E233785001BA250 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D679A1DA1E23329C001BA250 /* InsertViewController.swift */,
+				D679A1E31E2337BC001BA250 /* DeleteViewController.swift */,
+				D679A20D1E2370FA001BA250 /* UpDateViewController.swift */,
+				D679A2151E2396F9001BA250 /* UpdateSaveViewController.swift */,
+				D679A20F1E237123001BA250 /* SelectViewController.swift */,
+				D649A1311E2492740027DB61 /* LimitSelectViewController.swift */,
+				D679A2111E23837A001BA250 /* BatchViewController.swift */,
+				D679A1EC1E233CA6001BA250 /* TextFieldView.swift */,
+				D679A1FD1E236445001BA250 /* LookViewController.swift */,
+				D679A1FF1E236605001BA250 /* LookTableViewCell.swift */,
+				D679A2001E236605001BA250 /* LookTableViewCell.xib */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		D679A1E51E2338B7001BA250 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D679A1E71E2338C3001BA250 /* tmBack@2x.png */,
+				D679A1E81E2338C3001BA250 /* tmBack@3x.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
+		D679A1F01E235799001BA250 /* SQLManager */ = {
+			isa = PBXGroup;
+			children = (
+				D679A20B1E236CBA001BA250 /* SQLManager.swift */,
+				D679A2071E236CAE001BA250 /* Controller+Cagetory.swift */,
+				D679A2081E236CAE001BA250 /* String-DirCategory.swift */,
+			);
+			name = SQLManager;
+			sourceTree = "<group>";
+		};
+		D679A1F51E23592C001BA250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D679A1F61E23592C001BA250 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D679A1FA1E23601A001BA250 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D679A2051E236C9E001BA250 /* Person.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +214,7 @@
 					D679A1B61E232F89001BA250 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = NP7D9SC777;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D679A1EA1E2338C3001BA250 /* tmBack@2x.png in Resources */,
+				D679A1EB1E2338C3001BA250 /* tmBack@3x.png in Resources */,
+				D679A2021E236605001BA250 /* LookTableViewCell.xib in Resources */,
 				D679A1C51E232F89001BA250 /* LaunchScreen.storyboard in Resources */,
 				D679A1C21E232F89001BA250 /* Assets.xcassets in Resources */,
 				D679A1C01E232F89001BA250 /* Main.storyboard in Resources */,
@@ -137,8 +258,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D679A2101E237123001BA250 /* SelectViewController.swift in Sources */,
+				D679A2011E236605001BA250 /* LookTableViewCell.swift in Sources */,
 				D679A1BD1E232F89001BA250 /* ViewController.swift in Sources */,
+				D679A2121E23837A001BA250 /* BatchViewController.swift in Sources */,
+				D679A1D11E233017001BA250 /* MyFunc.swift in Sources */,
+				D679A1D31E23304C001BA250 /* RootViewController.swift in Sources */,
+				D679A1D61E233065001BA250 /* BaseNavigationController.swift in Sources */,
 				D679A1BB1E232F89001BA250 /* AppDelegate.swift in Sources */,
+				D679A20A1E236CAE001BA250 /* String-DirCategory.swift in Sources */,
+				D679A20E1E2370FA001BA250 /* UpDateViewController.swift in Sources */,
+				D679A2061E236C9E001BA250 /* Person.swift in Sources */,
+				D679A1D71E233065001BA250 /* BaseViewController.swift in Sources */,
+				D649A1321E2492740027DB61 /* LimitSelectViewController.swift in Sources */,
+				D679A1DB1E23329C001BA250 /* InsertViewController.swift in Sources */,
+				D679A2161E2396F9001BA250 /* UpdateSaveViewController.swift in Sources */,
+				D679A1E41E2337BC001BA250 /* DeleteViewController.swift in Sources */,
+				D679A20C1E236CBA001BA250 /* SQLManager.swift in Sources */,
+				D679A2091E236CAE001BA250 /* Controller+Cagetory.swift in Sources */,
+				D679A1ED1E233CA6001BA250 /* TextFieldView.swift in Sources */,
+				D679A1FE1E236445001BA250 /* LookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,11 +398,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = MySQLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.MySQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySQLite/MySQLite-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,11 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = MySQLite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.MySQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MySQLite/MySQLite-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +446,7 @@
 				D679A1CB1E232F89001BA250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
